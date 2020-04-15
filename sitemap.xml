@@ -13,12 +13,22 @@
   </url>
   
   <url>
+    <loc>https://henryhe.me/series/medicine/</loc>
+    <lastmod>2020-04-10T10:24:45-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://henryhe.me/posts/</loc>
     <lastmod>2020-04-10T10:24:45-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://henryhe.me/</loc>
+    <lastmod>2020-04-10T10:24:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://henryhe.me/series/</loc>
     <lastmod>2020-04-10T10:24:45-04:00</lastmod>
   </url>
   
@@ -30,6 +40,11 @@
   <url>
     <loc>https://henryhe.me/tags/</loc>
     <lastmod>2020-04-10T10:24:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://henryhe.me/tags/climate/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -54,16 +69,6 @@
   
   <url>
     <loc>https://henryhe.me/series/listicle/</loc>
-    <lastmod>2018-10-20T02:41:35-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://henryhe.me/series/medicine/</loc>
-    <lastmod>2018-10-20T02:41:35-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://henryhe.me/series/</loc>
     <lastmod>2018-10-20T02:41:35-04:00</lastmod>
   </url>
   
