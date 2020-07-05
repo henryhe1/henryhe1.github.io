@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>🌊 Henry He 2020</copyright>
-    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://henryhe.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>medicine</title>
+      <link>https://henryhe.me/tags/medicine/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://henryhe.me/tags/medicine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>advice</title>
+      <link>https://henryhe.me/tags/advice/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://henryhe.me/tags/advice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>economics</title>
+      <link>https://henryhe.me/tags/economics/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://henryhe.me/tags/economics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>policy</title>
+      <link>https://henryhe.me/tags/policy/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://henryhe.me/tags/policy/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>climate</title>
@@ -27,24 +63,6 @@
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://henryhe.me/tags/data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>medicine</title>
-      <link>https://henryhe.me/tags/medicine/</link>
-      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://henryhe.me/tags/medicine/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>advice</title>
-      <link>https://henryhe.me/tags/advice/</link>
-      <pubDate>Sat, 20 Oct 2018 02:41:35 -0400</pubDate>
-      
-      <guid>https://henryhe.me/tags/advice/</guid>
       <description></description>
     </item>
     
