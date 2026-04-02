@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://henryhe.me/categories/</loc>
+    <lastmod>2020-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://henryhe.me/categories/medicine/</loc>
+    <lastmod>2020-06-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://henryhe.me/tags/medicine/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -53,6 +59,9 @@
     <loc>https://henryhe.me/posts/7-tips-for-starting-med-school/</loc>
     <lastmod>2018-10-20T02:41:35-04:00</lastmod>
   </url><url>
+    <loc>https://henryhe.me/categories/advice/</loc>
+    <lastmod>2018-10-20T02:41:35-04:00</lastmod>
+  </url><url>
     <loc>https://henryhe.me/series/listicle/</loc>
     <lastmod>2018-10-20T02:41:35-04:00</lastmod>
   </url><url>
@@ -66,13 +75,7 @@
   </url><url>
     <loc>https://henryhe.me/about/</loc>
   </url><url>
-    <loc>https://henryhe.me/categories/advice/</loc>
-  </url><url>
     <loc>https://henryhe.me/page/archives/</loc>
-  </url><url>
-    <loc>https://henryhe.me/categories/</loc>
-  </url><url>
-    <loc>https://henryhe.me/categories/medicine/</loc>
   </url><url>
     <loc>https://henryhe.me/music/</loc>
   </url><url>
