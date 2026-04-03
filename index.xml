@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>s p a c e</title>
+        <title>Field Notes</title>
         <link>https://henryhe.me/</link>
-        <description>Recent content on s p a c e</description>
+        <description>Recent content on Field Notes</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <copyright>Henry He 🌊</copyright>
+        <copyright>Henry He</copyright>
         <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://henryhe.me/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>We Can Hack Pain — But Should We?</title>
             <link>https://henryhe.me/posts/hack/</link>
