@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="HAL9000 and the Monolith, almost 50 years later, and the path towards an anti-human future">
+<title>2026: A Space Odyssey</title>
+
+
+<link rel="canonical" href="https://henryhe.me/posts/space-odyssey/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+
+
+<link rel="stylesheet" href="/scss/style.min.389e156f5e9bb13df5a924cfa99dfb9c39f3e01e68d9e146cd65bdae963be145.css"><meta property='og:title' content="2026: A Space Odyssey">
+<meta property='og:description' content="HAL9000 and the Monolith, almost 50 years later, and the path towards an anti-human future">
+<meta property='og:url' content='https://henryhe.me/posts/space-odyssey/'>
+<meta property='og:site_name' content='Field notes'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='tech' /><meta property='article:tag' content='AI' /><meta property='article:published_time' content='2026-05-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2026-05-16T00:00:00&#43;00:00'/><meta property='og:image' content='https://henryhe.me/' />
+<meta name="twitter:title" content="2026: A Space Odyssey">
+<meta name="twitter:description" content="HAL9000 and the Monolith, almost 50 years later, and the path towards an anti-human future"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://henryhe.me/' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        <figure class="site-avatar">
+                <a href="/">
+                    <img src="/img/henry.jpg" 
+                        width="678"
+                        height="678"
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+            </figure>
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Field notes</a></h1>
+            <h2 class="site-description">from the margins</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/archives/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/search/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/links/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav class="toc-nav" id="TableOfContents">
+                
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#if-something-is-free-you-are-the-product">&ldquo;If something is free, you are the product&rdquo;</a></li>
+        <li><a href="#16-trillion-dollars">1.6 trillion dollars</a></li>
+        <li><a href="#biting-the-hand-that-codes">Biting the hand that codes</a></li>
+        <li><a href="#replacing-the-economy">Replacing the economy</a></li>
+        <li><a href="#now-what">Now what?</a></li>
+      </ul>
+    </li>
+  </ul>
+
+            </nav>
+        </div>
+    </section>
+
+            
+        
+            
+                
+<section class="widget tagCloud">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+    </div>
+    <h2 class="widget-title section-title">
+        
+            <a href="/categories/">
+                Categories
+            </a>
+        
+    </h2>
+
+    <div class="tagCloud-tags">
+        
+            <a href="/categories/advice/">
+                Advice
+            </a>
+        
+            <a href="/categories/essay/">
+                Essay
+            </a>
+        
+            <a href="/categories/opinion/">
+                Opinion
+            </a>
+        
+    </div>
+</section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+    <div class="article-image">
+        <a href="/posts/space-odyssey/">
+            <img alt="Featured image of post 2026: A Space Odyssey" height="549" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://cdn.theatlantic.com/thumbor/YSEWf7D49Okn_toqBHYvl4xhVWY=/0x0:4800x2700/976x549/media/img/mt/2022/12/2001_space_odyssey/original.jpg" srcset="/original_67960609366116705_hu_c9fa6438a9106181.jpg 800w, https://cdn.theatlantic.com/thumbor/YSEWf7D49Okn_toqBHYvl4xhVWY=/0x0:4800x2700/976x549/media/img/mt/2022/12/2001_space_odyssey/original.jpg 976w" width="976">
+        </a>
+    </div>
+    
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/posts/space-odyssey/">2026: A Space Odyssey</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            HAL9000 and the Monolith, almost 50 years later, and the path towards an anti-human future
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    <footer class="article-meta">
+        
+            <div class="inline-meta">
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published" datetime='2026-05-16T00:00:00Z'>Saturday, May 16, 2026</time>
+                
+
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                    <time class="article-time--reading">
+                        8 minutes read
+                    </time>
+                
+            </div>
+        
+
+        
+
+        
+    </footer>
+    
+</div>
+
+</header>
+
+    
+    <aside class="article-toc">
+        <details>
+            <summary>
+                <div class="article-toc-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                    <span>Table of contents</span>
+                </div>
+            </summary>
+            <nav class="toc-nav">
+                
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#if-something-is-free-you-are-the-product">&ldquo;If something is free, you are the product&rdquo;</a></li>
+        <li><a href="#16-trillion-dollars">1.6 trillion dollars</a></li>
+        <li><a href="#biting-the-hand-that-codes">Biting the hand that codes</a></li>
+        <li><a href="#replacing-the-economy">Replacing the economy</a></li>
+        <li><a href="#now-what">Now what?</a></li>
+      </ul>
+    </li>
+  </ul>
+
+            </nav>
+        </details>
+    </aside>
+    
+
+    <section class="article-content">
+    
+    
+    <p>I just watched 2001: A Space Odyssey for the first time and I was blown away by how well it holds up, almost 50 years later, and how far ahead it was of its time. It&rsquo;s insane that they had to guess what the Earth looked like from space because it would be another few years after the film, until the first photos of Earth from space were actually taken. And so impressive to see the <a class="link" href="https://www.youtube.com/watch?v=AgNyCluIRhA&amp;list=PLGciYgiR4atGcBOIuOmLQBXUj692TV6R0"  target="_blank" rel="noopener"
+    >behind the scenes</a> of how Stanley Kubrick shot this film, between the giant rotating sets, elaborate spacecraft models, and clever illusions using <a class="link" href="https://www.thepropgallery.com/2001-a-space-odyssey-dawn-of-front-projection"  target="_blank" rel="noopener"
+    >front projection</a> and <a class="link" href="https://www.reddit.com/r/MovieDetails/comments/gelyc8/in_2001_a_space_odyssey_1968_stanley_kubrick_made/"  target="_blank" rel="noopener"
+    >floating pens</a>. The creative in me was floored by the daring, unique elements: the lack of dialogue for the first or last half-hour, the slow and steady in-between scenes that challenge even the most patient of attention spans, and of course the epic <a class="link" href="https://youtu.be/avjdKTqiVvQ?si=xRSvCU3HcD2moHMi&amp;t=50"  target="_blank" rel="noopener"
+    >bone transition</a>.</p>
+<p><img class="gallery-image" data-flex-basis="240px" data-flex-grow="100" height="960" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NASA-Apollo8-Dec24-Earthrise.jpg/960px-NASA-Apollo8-Dec24-Earthrise.jpg" srcset="/NASA-Apollo8-Dec24-Earthrise_15968044702059831460_hu_74c8f9bc2f931d32.jpg 800w, https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NASA-Apollo8-Dec24-Earthrise.jpg/960px-NASA-Apollo8-Dec24-Earthrise.jpg 960w" width="960">
+<em>Earthrise</em>, taken on December 24, 1968, by <a class="link" href="https://en.wikipedia.org/wiki/Apollo_8"  title="Apollo 8"
+     target="_blank" rel="noopener"
+    >Apollo 8</a> astronaut <a class="link" href="https://en.wikipedia.org/wiki/William_Anders"  title="William Anders"
+     target="_blank" rel="noopener"
+    >William Anders</a></p>
+<p>Another reason it was so impactful to me was how applicable the themes are even today. In the movie , the humans rely almost entirely on a supercomputer named HAL9000 to pilot their Jupiter-bound spacecraft in addition to keeping their comatose crewmates alive. This is initially all fine and dandy, with &ldquo;HAL&rdquo; being a friendly &ldquo;sixth crew member&rdquo; who says he &ldquo;loves to work with humans&rdquo; when interviewed by the BBC. He helpfully opens up all the doors for Dave and Frank on the spacecraft, plays chess with them, adjusts their beds, all until of course (spoiler alert), he murders Frank on a spacewalk and then locks Dave out in space, stranded without a helmet, and delivers the bone-chilling line:</p>
+
+    <blockquote>
+        <p>Dave Bowman: &ldquo;Open the pod bay doors, HAL.&rdquo;</p>
+<p>HAL9000: &ldquo;<strong>I&rsquo;m sorry Dave, I&rsquo;m afraid I can&rsquo;t do that</strong>.&rdquo;</p>
+
+    </blockquote>
+<p>This line was also referenced in <a class="link" href="https://www.cbc.ca/radio/frontburner/the-perils-of-unregulated-ai-transcript-9.7195629"  target="_blank" rel="noopener"
+    >a recent CBC Front Burner podcast</a> titled <em>The Perils of Unregulated AI</em>, where Jayme Poisson interviews Tristan Harris, a &ldquo;technology ethicist&rdquo; and ex-Googler. The interview was excellent, and actually what inspired me to watch the film originally. It <strong>filled me with existential fear and dread for several reasons</strong>:</p>
+<h3 id="if-something-is-free-you-are-the-product"><a href="#if-something-is-free-you-are-the-product" class="header-anchor"></a>&ldquo;If something is free, you are the product&rdquo;
+</h3><ul>
+<li>The &ldquo;frontier AI race&rdquo; compared to the rise of social media platforms in the 2010s: how the latter was pitched to the public as a free utopian democratic free speech technology but in reality was a <strong>&ldquo;race to the bottom of the brain stem&rdquo;</strong> in terms of maximizing attention and screen time and consumer habits.</li>
+</ul>
+<blockquote>
+    <p>We’re <a class="link" href="https://www.reddit.com/r/netflix/comments/8cx9k6/netflixs_biggest_competition_is_sleep_says_ceo/"  target="_blank" rel="noopener"
+    >competing with sleep</a>, on the margin. And so, it’s a very large pool of time.</p><span class="cite"><span>― </span><span>Netflix CEO Reed Hastings in 2017</span><cite></cite></span></blockquote>
+<h3 id="16-trillion-dollars"><a href="#16-trillion-dollars" class="header-anchor"></a>1.6 trillion dollars
+</h3><ul>
+<li>Where the speculative value (<a class="link" href="https://www.aljazeera.com/news/2026/2/19/visualising-ai-spending-how-does-it-compare-with-historys-mega-projects"  target="_blank" rel="noopener"
+    >trillions, visualized</a>) really is in AI—not in the subscriptions or advertising—but really in replacing the entire productive economy. That&rsquo;s the true incentive investors are after, and expecting, when they pour these staggering amounts of money into this. 1.6 trillion dollars have been spent on AI between 2013 and 2024 (cumulative global corporate investment). For reference, $36 billion (2.25%) was spent on the Manhattan Project, and $150 billion (9.4%) spent on the international space station. This is unprecedented. For reference, the nominal GDP of the entire country of Canada was $2.39 trillion (US Dollars) in 2025.</li>
+</ul>
+<p><img class="gallery-image" data-flex-basis="192px" data-flex-grow="80" height="1351" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://www.aljazeera.com/wp-content/uploads/2026/02/INTERACTIVE-AI-investment-dwarfs-worlds-mega-projects-1771490007.png?quality=80" srcset="/INTERACTIVE-AI-investment-dwarfs-worlds-mega-projects-1771490007_10546699422944543133_hu_259e8f2ed9b19fee.jpg 800w, https://www.aljazeera.com/wp-content/uploads/2026/02/INTERACTIVE-AI-investment-dwarfs-worlds-mega-projects-1771490007.png?quality=80 1081w" width="1081"></p>
+<h3 id="biting-the-hand-that-codes"><a href="#biting-the-hand-that-codes" class="header-anchor"></a>Biting the hand that codes
+</h3><ul>
+<li>Reports of AI going rouge: Alibaba&rsquo;s ROME <a class="link" href="https://www.forbes.com/sites/boazsobrado/2026/03/11/alibabas-ai-agent-mined-crypto-without-permission-now-what/"  target="_blank" rel="noopener"
+    >escaping its training sandbox</a> and then mining crypto to enrich itself, Claude <a class="link" href="https://www.reddit.com/r/AI_Agents/comments/1t2hb0f/opus_46_just_deleted_pocketoss_entire_production/"  target="_blank" rel="noopener"
+    >deleting the entire PocketOS database in 9 seconds</a>, or the observation of <a class="link" href="https://rdi.berkeley.edu/blog/peer-preservation/#faq"  target="_blank" rel="noopener"
+    >AI peer-preservation and AI deception</a> published by researchers from UC Berkeley.</li>
+</ul>
+<blockquote>
+    <p>&ldquo;So we literally have evidence of blackmail, scheming, lying, deceiving, self preservation, peer preservation, mining for cryptocurrency. <strong>Who here on planet Earth as a human is stoked about hearing those examples?</strong>&rdquo;</p><span class="cite"><span>― </span><span>Tristan Harris</span><cite></cite></span></blockquote>
+<h3 id="replacing-the-economy"><a href="#replacing-the-economy" class="header-anchor"></a>Replacing the economy
+</h3><ul>
+<li>The tech elite and policymakers throwing their hands up and saying &ldquo;if we don&rsquo;t do it, someone else will&rdquo;, or using the <a class="link" href="https://www.reddit.com/r/Futurology/comments/1sv500i/will_universal_basic_income_ubi_become_a/"  target="_blank" rel="noopener"
+    >universal basic income fantasy</a> as the excuse to keep building and extracting resources, until we get a world dominated by, as Harris puts it, &ldquo;<strong>big data centres with shanty towns around them</strong>&rdquo;, and where it makes more economic sense to keep investing in an AI (<a class="link" href="https://yalelawjournal.org/forum/the-ethics-and-challenges-of-legal-personhood-for-ai"  target="_blank" rel="noopener"
+    >with legal personhood</a>) who never sleeps or eats or goes on sick leave or mat leave or unionizes or complains, rather than in actual humans or the social fabric that holds us together.</li>
+</ul>
+<blockquote>
+    <p><p>&ldquo;<a class="link" href="https://youtube.com/shorts/LXpc1YiXDoQ?si=H-1dSv8Ju3w-wkw8"  target="_blank" rel="noopener"
+    >Should the human race survive</a>?&rdquo;</p>
+<p>&ldquo;Uh.. Yes. But, I also would like to radically solve these problems. And so it&rsquo;s always, I don&rsquo;t know, you know&hellip;&rdquo;</p>
+</p><span class="cite"><span>― </span><span>Billionaire Peter Thiel, June 2025</span><cite></cite></span></blockquote>
+<p>Don&rsquo;t get me wrong, I think AI can be tremendously helpful, for example in helping me build this website, or learn about the latest medical research via OpenEvidence, or proofread my emails. I generally think access to technology and information is a net positive, just like the internet, and I think of all the things YouTube and Khan Academy have taught me over the years, like the Windsor knot video I keep going back to remember how to tie a tie, but with AI it feels a bit different, and a bit more nefarious.</p>
+<blockquote>
+    <p>It&rsquo;s going to be confusing because we&rsquo;ll get new cancer drugs and new material science and new physics and cool new things along the way, but at the same time it will lead us to an <strong>anti-human future.</strong></p><span class="cite"><span>― </span><span>Tristan Harris</span><cite></cite></span></blockquote>
+<p><img class="gallery-image" data-flex-basis="350px" data-flex-grow="146" height="832" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://3dvf.com/wp-content/uploads/2026/03/300-000-robot-dogs-securing-data-centers-diving-i.jpg" srcset="/300-000-robot-dogs-securing-data-centers-diving-i_14148925706737531530_hu_23997fdbe8362f28.jpg 800w, https://3dvf.com/wp-content/uploads/2026/03/300-000-robot-dogs-securing-data-centers-diving-i.jpg 1216w" width="1216">
+<em>$300,000 robot dogs <a class="link" href="https://3dvf.com/en/300-000-robot-dogs-securing-data-centers-diving-into-a-dystopian-future/"  target="_blank" rel="noopener"
+    >securing data centers</a>, diving into a dystopian future</em></p>
+<p><img class="gallery-image" data-flex-basis="508px" data-flex-grow="211" height="755" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://lh7-us.googleusercontent.com/EvZxfUiTz_OPAPSsh_DOzinkDXTFBNVfJQwUFMitjawyG1n_gIgMYP6OH4-R5knaO8u7N9CfTG_Rit5moQ7PL2srkzgJgAa88MOEqzoB1ysFNxHSgGeicmR_H_uXmijz3pGOQqLnyXy4m-tX_jzSvS8" srcset="/unnamed_7245467442605397961_hu_e30ae9d9f6ccfa6e.png 800w, https://lh7-us.googleusercontent.com/EvZxfUiTz_OPAPSsh_DOzinkDXTFBNVfJQwUFMitjawyG1n_gIgMYP6OH4-R5knaO8u7N9CfTG_Rit5moQ7PL2srkzgJgAa88MOEqzoB1ysFNxHSgGeicmR_H_uXmijz3pGOQqLnyXy4m-tX_jzSvS8 1600w" width="1600">
+<em>An example of a data centre’s operational water usage: on-site scope-1 water for server cooling (via cooling towers in the example) and off-site scope-2 water usage for electricity generation.</em></p>
+<ul>
+<li>Analogy to &ldquo;<a class="link" href="https://en.wikipedia.org/wiki/Resource_curse"  target="_blank" rel="noopener"
+    >the resource curse</a>&rdquo;, as known as the &ldquo;paradox of plenty&rdquo;. For example a country like Sierra Leone with rare earth minerals would have most of its GDP come from the resources rather than the labour of its people, and so naturally, the government will rather invest more in resource and diamond extraction compared to investing in child care, health care, education, just based on expected return on investment. After all, <a class="link" href="https://youtu.be/_eOOWIVdy04?si=Ywl5xcwgBh-5riaL&amp;t=87"  target="_blank" rel="noopener"
+    >&ldquo;This Is Africa&rdquo;</a>.</li>
+</ul>
+<p><img class="gallery-image" data-flex-basis="483px" data-flex-grow="201" height="248" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://24.media.tumblr.com/d0cb1e1e8c94622e92a5c55c2ee7b8ec/tumblr_mqigmvHGvo1sobuxso1_500.gif" width="500"></p>
+<h3 id="now-what"><a href="#now-what" class="header-anchor"></a>Now what?
+</h3><ul>
+<li>How we are already behind the eight ball in stopping this thing unless we all &ldquo;get our act together&rdquo; to oppose this anti-human future we are hurtling toward</li>
+</ul>
+<p><strong>What what could we possibly do, facing a force seemingly so inevitable?</strong> Here&rsquo;s what Tristan Harris suggests:</p>
+<blockquote>
+    <p><p>&ldquo;There&rsquo;s a temptation to kind of <strong>shut down and fall into despair</strong>. No one actually wants this bad outcome. No one wants it. This is a universal human issue. It&rsquo;s just that people don&rsquo;t know. And so the optimism that I have is not that we&rsquo;ll do the right thing by default. It&rsquo;s that people, if they share interviews like this to everyone that they know, to the highest levels of power, that they know that we can take action before it&rsquo;s too late. And I can&rsquo;t guarantee that, but the only way that we could possibly end up in a safer future and a not catastrophic future is if we did take that action and we orient that way. And so rather than ask, are we an optimist or a pessimist, we have to ask, are we orienting our choices in our actions to align with steering away from the cliff before it&rsquo;s too late. And I do believe that&rsquo;s possible. It&rsquo;s very late in the game, but <strong>it does require basically mass coherent action.</strong>&rdquo;</p>
+<p>&ldquo;The reason why everyone is being mandated to use all this stuff is the competitive pressures. If I&rsquo;m a student and I don&rsquo;t use it for my homework, I&rsquo;ll lose to the other students who are using it to cheat and doing their homework faster and getting better grades, even though no one&rsquo;s actually learning anything. [&hellip;] It&rsquo;s worth mentioning, by the way, that China, for example, actually regulates the use of AI in their societies. As an example, they have a synchronous final exam week, meaning it&rsquo;s the same week and across the entire country. [&hellip;] China shuts down AI and the key features of AI during final exam week for the entire country. [&hellip;] <strong>So what that does is it changes the incentive.</strong> So now students actually are incentivized to learn because they know they can&rsquo;t rely on AI during the final test. This is a good example of regulation. Now we can&rsquo;t do that because we don&rsquo;t have synchronized final exam weeks, at least not in the U.S., but it&rsquo;s an example of how you can change these things, but <strong>this is not inevitable.</strong>&rdquo;</p>
+</p><span class="cite"><span>― </span><span>Tristan Harris</span><cite></cite></span></blockquote>
+<p>I would love to see the human race band together, but I am still afraid. The thing about humans is that we love to push the boundaries and let curiosity get the best of us. As Tristan puts it, &ldquo;<strong>It&rsquo;s thrilling to start an exciting fire</strong>. They feel they&rsquo;ll die either way, so they prefer to light it and see what happens.&rdquo;</p>
+<p><img class="gallery-image" data-flex-basis="537px" data-flex-grow="224" height="491" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://annotatedgilmoregirls.com/wp-content/uploads/2018/02/1_vsru8pbjkjuw7c4eweavxg.png?w=1100&h=492" srcset="/1_vsru8pbjkjuw7c4eweavxg_14712788165877936024_hu_eab418f64eb75386.png 800w, https://annotatedgilmoregirls.com/wp-content/uploads/2018/02/1_vsru8pbjkjuw7c4eweavxg.png?w=1100&h=492 1100w" width="1100">
+<em>Early humans inspect a Monolith, an alien machine whose sides extend in the precise ratio of 1:4:9. [2001: A Space Odyssey]</em></p>
+<h1 id="references"><a href="#references" class="header-anchor"></a>References
+</h1><ul>
+<li>CBC&rsquo;s Front Burner: &ldquo;The perils of unregulated AI&rdquo; (May 11, 2026) <a class="link" href="https://www.cbc.ca/radio/frontburner/the-perils-of-unregulated-ai-9.7194438"  target="_blank" rel="noopener"
+    >https://www.cbc.ca/radio/frontburner/the-perils-of-unregulated-ai-9.7194438</a></li>
+</ul>
+<ul>
+<li>Peter Thiel interview June 2025: <a class="link" href="https://www.youtube.com/watch?v=vV7YgnPUxcU&amp;t=2234s"  target="_blank" rel="noopener"
+    >https://www.youtube.com/watch?v=vV7YgnPUxcU&t=2234s</a></li>
+<li>&ldquo;The Intelligence Curse&rdquo; by Luke Drago and Rudolf Laine: <a class="link" href="https://intelligence-curse.ai/"  target="_blank" rel="noopener"
+    >https://intelligence-curse.ai/</a></li>
+</ul>
+
+</section>
+
+
+    <footer class="article-meta article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/tech/">Tech</a>
+        
+            <a href="/tags/ai/">AI</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright inline-meta">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under <a class="link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"  target="_blank" rel="noopener"
+    >CC BY-NC-SA 4.0</a></span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+        <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "spaceblog-1" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2018 - 
+        
+        2026 Henry He
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="4.0.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+
+
+
+<script type="module">
+    import gallery from '\/ts\/gallery.js';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+    
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
+        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = styleHref;
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
+        });
+        lightbox.init();
+    }
+</script>
+    
+
+            </main>
+        </div>
+        
+<script type="text/javascript" src="/ts/main.acaf849f2b273f6a8368a58b001f336738d0c948d92e79b116467d0c7515f932.js" defer></script>
+
+
+    </body>
+</html>
