@@ -528,7 +528,7 @@ If you'd like to reach out at all, please feel free to send me a message: hello.
       counter.textContent = "";
       footer.appendChild(counter);
 
-      fetch(WORKER_URL + "/counts/" + encodeURIComponent(slug))
+      fetch(WORKER_URL + "/counts/" + slug)
         .then(function (r) { return r.json(); })
         .then(function (data) {
           if (data.reads > 0) {
