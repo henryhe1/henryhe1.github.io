@@ -734,7 +734,7 @@ injury&rdquo; &ndash; certainly quite impressive. They broke it down into three 
       counter.textContent = "";
       footer.appendChild(counter);
 
-      fetch(WORKER_URL + "/counts/" + slug)
+      fetch(WORKER_URL + "/counts/" + slug.replace(/^\//, ""))
         .then(function (r) { return r.json(); })
         .then(function (data) {
           if (data.reads > 0) {
