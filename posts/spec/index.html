@@ -628,19 +628,15 @@
 
   
   if (SHOW_COUNT) {
-    
-    document.addEventListener("DOMContentLoaded", function () {
-      var footer =
-        document.querySelector(".article-footer") ||
-        document.querySelector("footer.article-footer");
+    var footer =
+      document.querySelector(".article-footer") ||
+      document.querySelector("footer.article-footer");
 
-      if (!footer) return;
-
+    if (footer) {
       var counter = document.createElement("p");
       counter.className = "sv-reader-count";
-      counter.style.cssText =
-        "font-size:0.8rem;opacity:0.55;margin-top:1rem;";
-      counter.textContent = ""; 
+      counter.style.cssText = "font-size:0.8rem;opacity:0.55;margin-top:1rem;";
+      counter.textContent = "";
       footer.appendChild(counter);
 
       fetch(WORKER_URL + "/counts/" + encodeURIComponent(slug))
@@ -653,10 +649,9 @@
           }
         })
         .catch(function () {
-          
           counter.remove();
         });
-    });
+    }
   }
 })();
 </script>

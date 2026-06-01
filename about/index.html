@@ -517,19 +517,15 @@ If you'd like to reach out at all, please feel free to send me a message: hello.
 
   
   if (SHOW_COUNT) {
-    
-    document.addEventListener("DOMContentLoaded", function () {
-      var footer =
-        document.querySelector(".article-footer") ||
-        document.querySelector("footer.article-footer");
+    var footer =
+      document.querySelector(".article-footer") ||
+      document.querySelector("footer.article-footer");
 
-      if (!footer) return;
-
+    if (footer) {
       var counter = document.createElement("p");
       counter.className = "sv-reader-count";
-      counter.style.cssText =
-        "font-size:0.8rem;opacity:0.55;margin-top:1rem;";
-      counter.textContent = ""; 
+      counter.style.cssText = "font-size:0.8rem;opacity:0.55;margin-top:1rem;";
+      counter.textContent = "";
       footer.appendChild(counter);
 
       fetch(WORKER_URL + "/counts/" + encodeURIComponent(slug))
@@ -542,10 +538,9 @@ If you'd like to reach out at all, please feel free to send me a message: hello.
           }
         })
         .catch(function () {
-          
           counter.remove();
         });
-    });
+    }
   }
 })();
 </script>
